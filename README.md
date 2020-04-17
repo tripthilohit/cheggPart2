@@ -1,17 +1,11 @@
-# Yield Street
+# Chegg
 
-Time Taken to finish the Take home - Approx 4-5hrs
+The API Testing tool is Rest-assured.
+Here is the link for more information: http://rest-assured.io/
 
-<b> UI Automation Test </b>
+Preconditions for running the API Test
 
-Test File Path - /TakeHome/src/test/java/uiTestAutomation/buyTShirts.java
-This test uses Selenium Webdriver and Java
-
-<b> API Automation Test </b>
-
-Test File Path - /TakeHome/src/test/java/apiTestAutomation/getWeatherLondon.java
-This test uses Rest Assured
-
-<b> Automation Architecture </b>
-
-Test File Path - /TakeHome/AutomationArchitecture.pdf
+1. Java
+2. Eclipse
+3. Maven
+4. TestNG
