@@ -44,7 +44,28 @@ public class tests {
 	@Test
 	public void testUpdateblog()
 	{
-		
+		RestAssured.baseURI = "https://jsonblob.com/api"; 
+		String requestBody = "{\"content\": \"Blog post updated content goes here..\"}";
+ 
+        Response response = null;
+ 
+        try {
+            response = RestAssured.given()
+                .contentType(ContentType.JSON)
+                .body(requestBody)
+                .put(link);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        
+        System.out.println("Response :" + response.asString());
+        System.out.println("Status Code :" + response.getStatusCode());
+        
+      //Verify if the content text is correct
+        System.out.println("Does Reponse contains 'Blog post updated content'? :" + response.asString().contains("Blog post content"));
+       
+        //Verify if the response code is correct
+        assertEquals(200, response.getStatusCode());
 	}
 		
 }
