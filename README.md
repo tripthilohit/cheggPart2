@@ -1,6 +1,6 @@
 # Chegg
 
-The API Testing tool is REST-assured .
+The API Testing tool used is REST-assured .
 Here is the link for more information: http://rest-assured.io/
 
 What is REST-assured?
