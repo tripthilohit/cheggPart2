@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-17T22:35:14Z" name="Default suite" finished-at="2020-04-17T22:35:16Z" duration-ms="1902">
+  <suite started-at="2020-04-18T00:39:27Z" name="Default suite" finished-at="2020-04-18T00:39:29Z" duration-ms="2431">
     <groups>
     </groups>
-    <test started-at="2020-04-17T22:35:14Z" name="Default test" finished-at="2020-04-17T22:35:16Z" duration-ms="1902">
+    <test started-at="2020-04-18T00:39:27Z" name="Default test" finished-at="2020-04-18T00:39:29Z" duration-ms="2431">
       <class name="jsonBlobApi.tests">
-        <test-method signature="testBlogPost()[pri:0, instance:jsonBlobApi.tests@3bd82cf5]" started-at="2020-04-17T22:35:14Z" name="testBlogPost" finished-at="2020-04-17T22:35:16Z" duration-ms="1606" status="PASS">
+        <test-method signature="testBlogPost()[pri:0, instance:jsonBlobApi.tests@3bd82cf5]" started-at="2020-04-18T00:39:27Z" name="testBlogPost" finished-at="2020-04-18T00:39:29Z" duration-ms="1515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBlogPost -->
-        <test-method signature="testUpdateblog()[pri:0, instance:jsonBlobApi.tests@3bd82cf5]" started-at="2020-04-17T22:35:16Z" name="testUpdateblog" finished-at="2020-04-17T22:35:16Z" duration-ms="274" status="PASS">
+        <test-method signature="testBlogUpdate()[pri:0, instance:jsonBlobApi.tests@3bd82cf5]" started-at="2020-04-18T00:39:29Z" name="testBlogUpdate" finished-at="2020-04-18T00:39:29Z" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUpdateblog -->
+        </test-method> <!-- testBlogUpdate -->
       </class> <!-- jsonBlobApi.tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

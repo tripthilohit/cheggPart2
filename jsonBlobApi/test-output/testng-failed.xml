@@ -5,7 +5,7 @@
     <classes>
       <class name="jsonBlobApi.tests">
         <methods>
-          <include name="testResponseCode"/>
+          <include name="test"/>
         </methods>
       </class> <!-- jsonBlobApi.tests -->
     </classes>
