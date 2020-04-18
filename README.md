@@ -1,4 +1,4 @@
-# Chegg
+# Chegg Challenge Part 2
 
 The API Testing tool used is REST-assured .
 Here is the link for more information: http://rest-assured.io/
@@ -12,11 +12,12 @@ REST-assured is a Java DSL for simplifying testing of REST based web services bu
 1. Java - Any version of Java will work. I had it pointed to Java 8
 2. Eclipse - Latest edition
 3. Maven - If you are using latest version of Maven then by default Maven plugin comes with eclipse.
-4. TestNG - To validate result in Rest Assured 
-https://mvnrepository.com/artifact/io.rest-assured
+4. TestNG - You will need this to validate result in Rest Assured. You can follow the instructions in the given link here - https://www.toolsqa.com/testng/install-testng/ 
+Note: When I installed TestNG 7.1 I had issues running the tests. So, I installed version 6.14.3(as in the above link).
 
 ## How to execute the test script and verify the result?
 
+Test Path - ```Chegg-Part2/jsonBlobApi/src/test/java/jsonBlobApi/tests.java```
 - Right click on the test 
 - Run as TestNG Test
 
