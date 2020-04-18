@@ -27,10 +27,7 @@ public class tests {
         } catch (Exception e) {
             e.printStackTrace();
         }
- 
-        System.out.println("Response :" + response.asString());
-        System.out.println("Status Code :" + response.getStatusCode());
-        
+  
         //Verify if the blog was created
         System.out.println("Does Reponse contains 'Blog post content'? :" + response.asString().contains("Blog post content"));
        
@@ -41,9 +38,8 @@ public class tests {
     }
 	
 	@Test
-	public void testBlogUpdate()
+	public void testBlogUpdateAndDelete()
 	{
-		System.out.println(link);
 		String requestBody = "{\"content\": \"Blog post updated content goes here..\"}";
  
         Response response = null;
@@ -57,27 +53,18 @@ public class tests {
             e.printStackTrace();
         }
         
-        System.out.println("Response :" + response.asString());
-        System.out.println("Status Code :" + response.getStatusCode());
-        
         //Verify if the response code is correct
         System.out.println("Does Reponse contains 'Blog post updated content'? :" + response.asString().contains("Blog post updated content"));
        
         //Verify if the blog was updated correctly
         assertEquals(200, response.getStatusCode());
         
-      
-        //Response response = null;
-        System.out.println("link is "+link);
         try {
             response = RestAssured.delete(link);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
-        System.out.println("Response :" + response.asString());
-        System.out.println("Status Code :" + response.getStatusCode());
-        
+
         //Verify if the response code is correct
         assertEquals(200, response.getStatusCode());
         
@@ -89,9 +76,6 @@ public class tests {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
-        System.out.println("Response :" + response.asString());
-        System.out.println("Status Code :" + response.getStatusCode());
         
         //Confirming if the blog was deleted
         assertEquals(404, response.getStatusCode());
