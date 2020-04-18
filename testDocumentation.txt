@@ -1,0 +1,27 @@
+
+
+
+
+
+Challenge 2:
+
+Open Questions - 
+1. Are there any additional tests would you add? Why?
+
+I would add negative tests like
+	- sending an incorrect content type 
+	- sending an incorrect body 
+API tests require both positive and negative tests to ensure that the API is working correctly.
+
+2. Are there any common issues that we would potentially see while building or
+updating similar APIs?
+
+Some of the common issues are:
+- APIs works independently but the entire flow does not work. This is very important because most of the cases the end user would be using the api requests in conjunction
+with the others.
+
+- Not adding response time assertions. Adding this will make sure the end user has a good user experience.
+
+- Not having clear error messages. A good API error messages will  allow to quickly fix a failed call.
+
+- No proper documentation. Many mistakes like incorrect HTTP method, body can be avoided by having a good documentation.
