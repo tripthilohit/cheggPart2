@@ -3,7 +3,9 @@
 
 
 
-Challenge 2:
+Challenge 2: 
+
+Challenge 2 tests the POST, UPDATE, DELETE and GET requests JSON Blob API (https://jsonblob.com/api)
 
 Open Questions - 
 1. Are there any additional tests would you add? Why?
